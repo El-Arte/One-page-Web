@@ -1,0 +1,111 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.bgimage
+{
+  background-image: url("img/tt.jpg");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100vh;
+}
+
+.menu
+{
+  width: 100%;
+  height: 100px;
+  background-color: rgba(142, 142, 142, 0.3);
+}
+
+.leftmenu
+{
+  width: 25%;
+  line-height: 100px;
+  float: left;
+}
+
+.leftmenu h4
+{
+  padding-left: 70px;
+  color: white;
+  font-size: 22px;
+}
+
+.rightmenu
+{
+  width: 75%;
+  height: 100px;
+  float: right;
+}
+
+.rightmenu ul
+{
+  margin-left: 450px;
+}
+
+.rightmenu ul li
+{
+  font-weight: bold;
+  display: inline-block;
+  list-style: none;
+  font-size: 15px;
+  color: white;
+  line-height: 100px;
+  margin-left: 40px;
+}
+
+#firstlist
+{
+  color: black;
+}
+
+.rightmenu ul li:hover
+{
+  color: black;
+  cursor: pointer;
+}
+
+.text
+{
+  width: 100%;
+  margin-top: 155px;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+}
+
+.text h4
+{
+    font-size: 22px;
+}
+
+#buttonone
+{
+font-family: 'Montserrat', sans-serif;
+border: none;
+border: 3px solid black;
+background-color: white;
+width: 150px;
+line-height: 40px;
+font-size: 12px;
+font-weight: bold;
+text-transform: uppercase;
+
+}
+
+#butttontwo
+{
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  background-color: transparent;
+  border: none;
+  border: 3px solid white;
+  width: 150px;
+  line-height: 40px;
+  font-weight: bold;
+
+}
